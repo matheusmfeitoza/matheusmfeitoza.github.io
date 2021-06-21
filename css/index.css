@@ -47,27 +47,11 @@ a::before {
   background-size: 100%;
 }
 /* Main content start */
-.main-content {
+/* .main-content {
   background: url(../assets/img/headphones.jpg) no-repeat;
   background-size: 100vw;
-  height: 800px;
-}
-.about-me {
-  display: inline-block;
-  background-color: #3a4042;
-  box-shadow: 5px 5px 0 #000000;
-  margin-top: 116px;
-  margin-left: 91px;
-}
-.about-me h1 {
-  padding-top: 52px;
-  padding-bottom: 20px;
-  padding-right: 20px;
-}
-.about-me h2 {
-  padding-bottom: 40px;
-  padding-left: 40px;
-}
+  height: 800px; */
+/* } */
 
 .btn-main-content {
   margin-left: 181px;
