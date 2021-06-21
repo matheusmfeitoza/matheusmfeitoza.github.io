@@ -1,9 +1,15 @@
 header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   background-color: #7c5e99;
   padding: 10px 20px;
   border-bottom: 10px solid #000;
+}
+h1 {
+  font-family: "Press Start 2P", sans-serif;
+  color: #fff;
+  text-shadow: 5px 5px 0 #000000;
 }
 nav {
   text-align: right;
