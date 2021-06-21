@@ -44,10 +44,12 @@ a::before {
 #button:hover {
   background-color: #f25a71b4;
   transform: scale(1.08);
+  background-size: 100%;
 }
 
 .main-content {
-  background: url(../assets/img/Eu.jpeg) no-repeat;
+  background: url(../assets/img/headphones.jpg) no-repeat;
+  background-size: 100vw;
   height: 800px;
 }
 .about-me {
