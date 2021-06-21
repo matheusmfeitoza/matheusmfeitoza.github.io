@@ -45,3 +45,53 @@ a::before {
   background-color: #f25a71b4;
   transform: scale(1.08);
 }
+
+.main-content {
+  background: url(../assets/img/Eu.jpeg) no-repeat;
+  height: 800px;
+}
+.about-me {
+  display: inline-block;
+  background-color: #3a4042;
+  box-shadow: 5px 5px 0 #000000;
+  margin-top: 116px;
+  margin-left: 91px;
+}
+.about-me h1 {
+  color: #f25a70;
+  padding-top: 52px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-size: 40px;
+  line-height: 40px;
+  text-shadow: 4px 4px 0px #000000;
+}
+.about-me h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+  font-family: "Press Start 2P", sans-serif;
+  text-shadow: 4px 4px 0px #000000;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+
+.btn-main-content {
+  margin-left: 181px;
+  margin-top: 38px;
+}
+.btn {
+  background-color: #f25a70;
+  display: inline-block;
+  padding: 18px 20px;
+  box-shadow: 5px 5px 0 #000000;
+  margin-right: 0;
+  transition: transform 100ms linear;
+  margin-right: 112px;
+}
+.btn:hover {
+  background-color: #f25a71b4;
+  transform: scale(1.08);
+}
