@@ -10,6 +10,11 @@
   height: 280px;
   padding: 20px;
   box-shadow: 10px 10px 0px #ffffff;
+  transition: transform 100ms linear;
+}
+.projects-logos .logo:hover {
+  transform: scale(1.08);
+  background-size: 100%;
 }
 .projects-logos a {
   cursor: pointer;
