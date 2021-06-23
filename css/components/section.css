@@ -7,3 +7,9 @@
 .section .main-title.-second {
   margin-bottom: 100px;
 }
+
+.section.-third {
+  box-sizing: border-box;
+  background-color: #000;
+  border-bottom: 10px solid #f25a70;
+}
