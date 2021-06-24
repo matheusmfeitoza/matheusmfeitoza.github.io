@@ -1,0 +1,6 @@
+.wrapper-projects {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
