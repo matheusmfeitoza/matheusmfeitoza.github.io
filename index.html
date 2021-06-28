@@ -28,7 +28,8 @@
     <link rel="stylesheet" href="css/components/main-description.css" />
     <link rel="stylesheet" href="css/components/button-arrow.css" />
     <link rel="stylesheet" href="css/components/node-card.css" />
-    <link rel="stylesheet" href="css/components/footer-card.css" />
+    <link rel="stylesheet" href="css/components/main-footer.css" />
+    <link rel="stylesheet" href="css/components/main-label.css" />
 
     <title>Portfólio - Matheus Marinho</title>
   </head>
@@ -168,7 +169,21 @@
         final, ser um dev Front-End!
       </p>
     </section>
-    <footer class="footer">
+
+    <section class="main-section -bgGray">
+      <h2 class="main-title -second">Contato</h2>
+      <form action="">
+        <label class="main-label" for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" />
+        <label class="main-label" for="email">E-mail</label>
+        <input type="email" name="email" id="email" />
+        <label class="main-label" for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
+
+    <footer class="main-footer">
       <figure class="footer-card">
         <a
           href="https://www.linkedin.com/in/matheus-marinho-4a1885149/"
