@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/components/main-footer.css" />
     <link rel="stylesheet" href="css/components/main-label.css" />
     <link rel="stylesheet" href="css/components/main-input.css" />
+    <link rel="stylesheet" href="css/components/main-form.css" />
 
     <title>Portfólio - Matheus Marinho</title>
   </head>
@@ -173,20 +174,21 @@
 
     <section class="main-section -bgGray">
       <h2 class="main-title -second">Contato</h2>
-      <form action="">
+      <form action="" class="main-form">
         <label class="main-label" for="nome">Nome</label>
         <input class="main-input" type="text" name="nome" id="nome" />
         <label class="main-label" for="email">E-mail</label>
         <input class="main-input" type="email" name="email" id="email" />
         <label class="main-label" for="mensagem">Mensagem</label>
         <textarea
-          class="main-input"
+          class="main-input -textarea"
           name="mensagem"
           id="mensagem"
           cols="30"
           rows="10"
         ></textarea>
-        <input class="main-input" type="submit" value="Enviar" />
+        <!-- <input class="main-input -btn" type="submit" value="Enviar" /> -->
+        <button class="main-button -full" type="submit">Enviar</button>
       </form>
     </section>
 
